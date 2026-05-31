@@ -18,7 +18,7 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v5
+      uses: actions/checkout@v6
 
     - name: Get latest Requests version
       id: get_version
@@ -83,7 +83,7 @@ jobs:
 
     - name: Create GitHub Release and upload files
       if: ${{ steps.check_version.outputs.should_release == 'true' }}
-      uses: softprops/action-gh-release@v2
+      uses: softprops/action-gh-release@v3
       with:
         tag_name: ${{ steps.get_version.outputs.version }}
         name: "${{ steps.get_version.outputs.version }}"
