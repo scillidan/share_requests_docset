@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xml>
-  <entry>
-    <name>Requests</name>
-    <version>2.34.2</version>
-    <url>https://github.com/scillidan/share_requests_docset/releases/download/2.34.2/Requests.docset.tgz</url>
-  </entry>
-</xml>
+<entry>
+  <name>Requests</name>
+  <version>2.34.2</version>
+  <url>https://github.com/scillidan/share_requests_docset/releases/download/2.34.2/Requests.tgz</url>
+</entry>
